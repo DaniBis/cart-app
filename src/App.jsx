@@ -10,7 +10,6 @@ function App() {
     <>
      <Router>
         <Navbar />
-        <All.Cart />
         <Routes>
           <Route path='/' element={< All.Shop/>} />
           <Route path='/cart' element={< All.Cart/>}/>

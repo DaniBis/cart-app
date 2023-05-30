@@ -105,10 +105,10 @@ export default class Navbar extends React.PureComponent {
           </NavBarToggle>
           <MainNav display={isHamburgerVisible ? this.state.displayNav : "flex"}>
             <NavLi>
-              <NavLink href="/shop">Shop</NavLink>
+              <NavLink to="/">Shop</NavLink>
             </NavLi>
             <NavLi>
-              <NavLink href="/cart">
+              <NavLink to="/cart">
                 <ShoppingCart size={24} />
               </NavLink>
             </NavLi>
