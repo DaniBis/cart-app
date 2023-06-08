@@ -104,7 +104,6 @@ export const Shop = () => {
             <h1>{item.Name}</h1>
             <h4>${item.Price}</h4>
             <button onClick={() => addToCart(item.id)}>Add to Cart</button>
-            <button>Delete</button>
           </PerItem>
         ))}
       </ItemsList>
