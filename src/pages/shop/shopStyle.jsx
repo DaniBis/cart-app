@@ -18,6 +18,7 @@ export const AddForm = styled.div`
     padding: 20px;
     width: 300px;
     margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
     border: 3px solid grey;
     border-radius: 15px;
@@ -39,6 +40,8 @@ export const AddForm = styled.div`
     & button {
         padding: 10px;
         margin: 5px;
+        background-color: #333;
+        color: #FFF;
     }
 `;
 
